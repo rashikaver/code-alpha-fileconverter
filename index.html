@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image to PDF Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Image to PDF Converter</h1>
+    </div>
+
+    <div class="container">
+        <div class="upload-section">
+            <h2>Upload an Image</h2>
+            <input type="file" id="imageInput" accept="image/*">
+            <button id="convertButton">Convert to PDF</button>
+        </div>
+
+        <div class="loading-section">
+            
+            <p class="loading-text">Converting image to PDF... Be patient!</p>
+        </div>
+
+        <div class="result-section">
+            <h2>PDF Download</h2>
+            <p class="result-text">Your image has been converted to PDF. Click the button below to download.</p>
+            <a href="#" id="downloadLink" download>Download PDF</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
